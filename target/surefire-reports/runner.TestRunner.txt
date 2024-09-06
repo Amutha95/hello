@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.573 s <<< FAILURE! -- in runner.TestRunner
+Grocery Store Management API Testing.Filter products by category -- Time elapsed: 0.009 s <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepdefinition.OnlineGroceryManagementSteps.i_should_receive_a_list_of_products_in_the_category_with_status_code(OnlineGroceryManagementSteps.java:134)
+	at ✽.I should receive a list of products in the "Grocry Items" category with status code 200(file:///C:/Users/Administrator/eclipse-workspace/zgrocery/src/test/resources/features/GroceryManagement.feature:36)
+
